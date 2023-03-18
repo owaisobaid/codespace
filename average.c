@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
 {
-    float s,s2,s3,s4,s5,i;
-    for(i=0;i<=5;i++)
+int s;
+    for(s=0;s<=5;s++)
     {
-        printf("s=%f",s);
+        printf("s1=%d",s);
     }
 }
