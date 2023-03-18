@@ -14,11 +14,11 @@ scanf("%f",&s4);
 printf("s5=");
 scanf("%f",&s5);
 sum=s1+s2+s3+s4+s5;
-printf("enter total marks=");
+printf("enter max marks=");
 scanf("%d",&x);
 percentage=(sum/x)*100;
-printf("percentage=%.3f",percentage);
+printf("percentage=%.3f\n",percentage);
 cgpa=(percentage/9.5);
-printf("cgpa=%.3f",cgpa);
+printf("cgpa=%.3f\n",cgpa);
 return 0;
 }
