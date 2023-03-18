@@ -9,6 +9,6 @@ int main()
     printf("time period=");
     scanf("%f",&t);
     si=p*(r/100)*t;
-    printf("simple interest=%.3f",si);
+    printf("simple interest=%.3f\n",si);
 
 }
