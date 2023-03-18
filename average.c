@@ -2,7 +2,7 @@
 int main()
 {
 float s;
-printf("enter marks")
+printf("enter marks");
     for(s=0;s<=5;s++)
     {
         scanf("%d",&s);
