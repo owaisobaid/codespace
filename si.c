@@ -5,7 +5,7 @@ int main()
     printf("principal amount=");
     scanf("%f",&p);
     printf("rate of interest=");
-    scanf("%f,&r);
+    scanf("%f",&r);
     printf("time period=");
     scanf("%f",&t);
     si=p*(r/100)*t;
