@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main(
+int main()
  {
     float c,f;
     printf("celsius=");
@@ -7,6 +7,4 @@ int main(
     f=(c/0.56)+32;
     printf("fahrenheit=%.3f\n",f);
     return 0;
-
-    }
-)
+ }
