@@ -1,12 +1,24 @@
 #include<stdio.h>
 int main()
 {
-float s;
-printf("enter marks=\n");
-scanf("%f",&s);
-   for(s=0;s<=5;s++)
-    {
-        scanf("%f",&s);
-        printf("s1=%f",s);
-    }
+    float s1,s2,s3,s4,s5,sum,percentage,cgpa;
+int x;
+printf("s1=");
+scanf("%f",&s1);
+printf("s2=");
+scanf("%f",&s2);
+printf("s3=");
+scanf("%f",&s3);
+printf("%f",s4);
+scanf("%f",&s4);
+printf("s5=");
+scanf("%f",&s5);
+sum=s1+s2+s3+s4+s5;
+printf("enter total marks=");
+scanf("%d",&x);
+percentage=(sum/x)*100;
+printf("percentage=%.3f",percentage);
+cgpa=(percentage/9.5);
+printf("cgpa=%.3f",cgpa);
+return 0;
 }
