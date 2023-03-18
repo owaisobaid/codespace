@@ -9,7 +9,7 @@ printf("s2=");
 scanf("%f",&s2);
 printf("s3=");
 scanf("%f",&s3);
-printf("%f",s4);
+printf("s4=");
 scanf("%f",&s4);
 printf("s5=");
 scanf("%f",&s5);
